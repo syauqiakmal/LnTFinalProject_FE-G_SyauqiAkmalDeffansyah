@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+ #judul{
+    font-size: 3rem;
+}
+    
+#judul:hover{
+    font-family:'Bree Serif', serif;
+    color: #A6FFF2;
+}
+    
+#navbarcolor{
+    border-bottom: 7px solid #A6FFF2;
+}
+    
+.dropdown-menu{
+    background-color: #1e7dca;
+}
+    
+.nav-item:hover{
+    background-color: #02a0ac;
+} 
+    
+#nav-item-link{
+    font-size: 1.50rem;
+    color: #A6FFF2;
+}
+
+#konten{
+    padding: 10rem 0rem 19rem 0rem;
+    background-color: #1e7dca;
+}
+
+#konten-heading{
+    font-size: 4rem;
+}
+
+#konten-heading:hover{
+    color: rgb(9, 255, 181); 
+}
+
+#konten-paragraph{
+    margin-top:3rem;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+}
+
+#konten-paragraph:hover{
+    color: rgb(86, 244, 255); 
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:992px){
+    .navbar{
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width:980px){
+    #judul{
+        font-size: 2.5rem;
+    }
+
+    #navbarcolor{
+        border-bottom: 7px solid #A6FFF2;
+    }
+        
+    .dropdown-menu{
+        background-color: #1e7dca;
+    }
+        
+    .nav-item:hover{
+        background-color: #02a0ac;
+    } 
+        
+    #nav-item-link{
+        font-size: 1.50rem;
+        color: #A6FFF2;
+    }
+    
+    #konten{
+        padding: 8rem 0rem 4rem 0rem;
+        background-color: #1e7dca;
+    }
+    
+    #konten-heading{
+        font-size: 4rem;
+    }
+    
+    #konten-paragraph{
+        margin-top:3rem;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+    }
+  
+    
+}
+
+@media only screen and (max-width:580px){
+    #judul{
+        font-size: 2.3rem;
+    }
+
+    #navbarcolor{
+        border-bottom: 7px solid #A6FFF2;
+    }
+        
+    .dropdown-menu{
+        background-color: #1e7dca;
+    }
+        
+    .nav-item:hover{
+        background-color: #02a0ac;
+    } 
+        
+    #nav-item-link{
+        font-size: 1.50rem;
+        color: #A6FFF2;
+    }
+    
+    #konten{
+        padding: 8rem 0rem 4rem 0rem;
+        background-color: #1e7dca;
+    }
+    
+    #konten-heading{
+        font-size: 3rem;
+    }
+    
+    #konten-paragraph{
+        margin-top:3rem;
+        font-size: 1.2rem;
+    }
+  
+} 

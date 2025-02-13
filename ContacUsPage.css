@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+
+#judul{
+    font-size: 3rem;
+}
+
+#judul:hover{
+    font-family:'Bree Serif', serif;
+    color: #A6FFF2;
+}
+
+#navbarcolor{
+    border-bottom: 7px solid #A6FFF2;
+}
+
+.dropdown-menu{
+    background-color: #1e7dca;
+}
+
+.nav-item:hover{
+ background-color: #02a0ac;
+} 
+
+#nav-item-link{
+    font-size: 1.50rem;
+    color: #A6FFF2;
+}
+
+#konten-heading{
+    padding-bottom: 2.7rem;
+    text-align: center;
+}
+
+#konten{
+    padding: 16rem 0rem 5rem 0rem;
+    background-color: #1e7dca;
+}
+
+#konten-phone-number-title, #konten-email-title{
+    color: rgb(9, 255, 181); 
+    font-size: 1.9rem;
+}
+
+#konten-phone-number, #konten-email{
+    font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width:990px){
+    #judul{
+        font-size: 2.8rem;
+    }
+    #nav-item-link{
+        font-size: 1.25rem;
+        color: white;
+    }
+    #konten-heading{
+        font-size: 2rem;
+        padding-bottom: 2.5rem;
+        text-align: center;
+    }
+    
+    #konten{
+        padding: 16rem 0rem 21rem 0rem;
+
+    }
+    
+    #konten-phone-number-title, #hero-email-title{
+        font-size: 1.7rem;
+    }
+    
+    #konten-phone-number, #hero-email{
+        font-size: 1.3rem;
+    }
+  
+}
+
+@media only screen and (max-width:575px){
+    #judul{
+        font-size: 2.5rem;
+
+    }
+    #nav-item-link{
+        font-size: 1.20rem;
+    }
+    #konten-heading{
+        font-size: 1.6rem;   
+         padding-bottom: 2.5rem;
+        text-align: center;
+    }
+    
+    #konten{
+    padding: 16rem 0rem 21rem 0rem;
+    }
+    
+    #konten-phone-number-title, #hero-email-title{
+        font-size: 1.4rem;
+    }
+    
+    #konten-phone-number, #hero-email{
+        font-size: 1.2rem;
+    }
+
+} 
